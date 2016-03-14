@@ -1,0 +1,59 @@
+.container{
+  width:60%;
+  margin-left: 23%;
+}
+
+img{
+  width:55%;
+  border: 5px solid lightgrey;
+  /*margin-left: 30%;*/
+}
+div{
+  display:inline-block;
+  width:40%;
+}
+.stuff{
+  display: inline-block;
+  width:40%;
+  margin-left: 5%;
+  background-color: lightgrey;
+  padding:3%;
+  margin:2%;
+  height:20rem;
+}
+.pic{
+  height:20rem;
+}
+.add{
+  width:60%;
+  margin-left: 15%;
+  margin-top: 5%;
+  background-color: lightgrey;
+  padding: 5%;
+}
+textarea{
+  width:96%;
+  margin-bottom:3%;
+  border-radius: 5px;
+}
+
+input{
+  width:31%;
+  margin-bottom:3%;
+  height:2rem;
+  border-radius: 5px;
+}
+input:first-child{
+  width:60%;
+  /*margin-left: 18%;*/
+  /*height:2rem;*/
+}
+h2{
+  padding-bottom: 3%;
+}
+input:last-child{
+  margin-left: 65%;
+  margin-top: 5%;
+  height:3rem;
+  border-radius: 5px;
+}

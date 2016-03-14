@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MOVIES: backbone intro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+
+    <div class="container">
+    </div>
+
+    <section class="add">
+      <h2>Add a new movie!</h2>
+      <form class="addNewMovie" action="index.html">
+        <input name='title' type="text" placeholder="Movie Title"><br>
+        <textarea name='desc' rows="4" cols="50" placeholder="Synopsis"></textarea><br>
+        <input name='star' type="text" placeholder="Main Stars">
+        <input name='runTime' type="text" placeholder="Run Time">
+        <input name='coverImg' type="text" placeholder="Poster URL">
+        <input class="button" type="submit" value="Submit">
+      </form>
+    </section>
+
+    <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
+    <script src="bower_components/backbone/backbone.js" charset="utf-8"></script>
+    <script src="data.js" charset="utf-8"></script>
+    <script src="models.js" charset="utf-8"></script>
+    <script src="collections.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
