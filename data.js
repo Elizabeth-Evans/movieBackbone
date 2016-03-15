@@ -16,7 +16,7 @@ var movie = [
   {
     title: "Turbo Kid",
     coverImg:"img/turbokid.jpg",
-    desc: "Set in the Wasteland of a post apocalyptic parallel future of 1997, an orphaned teenager befriends a mysterious girl. When she's kidnapped, he must face his ultimate destiny: avenge his parents' death and get the girl of his dreams.",
+    desc: "Set in the Wasteland of a post apocalyptic parallel future of 1997, a teen befriends a mysterious girl. He must face his ultimate destiny: avenge his parents' death and get the girl of his dreams.",
     star: "M. Chambers, L. Lebouef",
     runTime: "1 hour, 32 minutes"
   },
@@ -30,7 +30,7 @@ var movie = [
   {
     title: "Kung Fury",
     coverImg:"img/kungfury.jpg",
-    desc: "Kung Fury travels back in time to kill Adolf Hitler (aka Kung Führer) and put an end to the Third Reich once and for all.",
+    desc: "Kung Fury travels back in time to kill Adolf Hitler (aka Kung Führer) and put an end to the Third Reich once and for all. Along the way there are dinosaurs and other crazies. NBD.",
     star: "David Sandberg, Jorma Taccone",
     runTime: "30 minutes"
   },
@@ -44,28 +44,28 @@ var movie = [
   {
     title: "Mad Max: Fury Road",
     coverImg:"img/madmax.jpg",
-    desc: "From director George Miller comes the fourth adventure in the Mad Max film series. In a post-apocalyptic world, Max (Hardy) teams up with a mysterious woman, Furiosa (Theron), to try and survive.",
+    desc: "From director George Miller comes the fourth adventure in the Mad Max film series. In a post-apocalyptic world, Max teams up with a mysterious woman, Furiosa, to try and survive.",
     star: "Tom Hardy, Charlize Theron",
     runTime: "2 hours, 0 minutes"
   },
   {
     title: "The Last Unicorn",
     coverImg:"img/thelastunicorn.jpg",
-    desc: "Fantasy about the last remaining unicorn on earth who leaves her home in the lilac woods in the hope that she will find another unicorn somewhere in the world.",
+    desc: "Fantasy about the last remaining unicorn on earth who leaves her home in the lilac woods in the hope that she will find another unicorn somewhere in the world. She finds adventure along the way.",
     star: "Alan Arkin, Jeff Bridges",
     runTime: "1 hour, 29 minutes"
   },
   {
     title: "The Man Who Fell To Earth",
     coverImg:"img/theman.jpg",
-    desc: "Thomas Jerome Newton (David Bowie) is a humanoid alien who comes to Earth to get water for his dying planet. He starts a high technology company to get the billions of dollars he needs to build a return spacecraft.",
+    desc: "Thomas Jerome Newton is a humanoid alien who comes to Earth to get water for his dying planet. He starts a high technology company to get the money he needs to build a return spacecraft.",
     star: "David Bowie, Rip Torn",
     runTime: "2 hours, 19 minutes"
   },
   {
     title: "GoodFellas",
     coverImg:"img/goodfellas.jpeg",
-    desc: "Based on the bestselling biography, Henry Hill is a small time gangster, who takes part in a violent robbery with two ambitious gangsters.",
+    desc: "Based on the bestselling biography, Henry Hill is a small time gangster, who takes part in a violent robbery with two ambitious gangsters. Friends, Family, and Shinanigans.",
     star: "Robert De Niro, Ray Liotta",
     runTime: "2 hours, 25 minutes"
   }
