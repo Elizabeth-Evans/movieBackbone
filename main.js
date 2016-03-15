@@ -1,6 +1,7 @@
 $(document).ready(function(){
   var movieCollection = new MovieCollection(movie);
   new CollectionView({collection: movieCollection});
+  var addMovie = new CreateMovieView({collection: movieCollection});
 });
 
 
