@@ -4,6 +4,7 @@
   width:60%;
   margin-left: 23%;
   margin-top: 2%;
+
 }
 
 img{
@@ -74,4 +75,15 @@ button{
 }
 .delete{
   margin-left: 20%;
+}
+.editSection{
+  width:100%;
+}
+.editSection input{
+width:100%;
+}
+.editSection button{
+  border-radius: 15px;
+  margin-top: 0%;
+  margin-left: 70%;
 }

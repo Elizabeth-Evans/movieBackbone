@@ -7,17 +7,18 @@ var CreateMovieView=Backbone.View.extend({
 
   addMovie: function (event) {
     event.preventDefault();
-    this.modle.set({
+    this.model.set({
       title: this.$el.find('input[name="title"]').val(),
       desc: this.$el.find('textarea[name="desc"]').val(),
       star: this.$el.find('input[name="star"]').val(),
       runTime: this.$el.find('input[name="runTime"]').val(),
-      coverImg: this.$el.find('input[name="coverImg"]').val(),
+      coverImg: this.$el.find('input[name="coverImg"]').val()
     });
     this.$el.find('input').val('');
     this.$el.find('textarea').val('');
     this.collection.add(this.model);
     console.log(this.collection);
+    this.model = new MovieModel({});
   },
   initialize: function () {
     if(!this.model) {
@@ -26,7 +27,7 @@ var CreateMovieView=Backbone.View.extend({
     this.render();
   },
   render: function () {
-    var markup = this.template();
+    var markup = this.template(this.model.toJSON());
     this.$el.html(markup);
     return this;
   }
